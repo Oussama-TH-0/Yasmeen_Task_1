@@ -20,7 +20,7 @@ This project is part of a data analysis task where we explore a dataset containi
 3. **Gender Distribution**
    - Calculated the percentage of male and female employees using:
      ```python
-     df['gender'].value_counts(normalize=True) * 100
+     df["Sex"].value_counts() / df.shape[0] *100
      ```
 
 4. **Job Title Counts**
